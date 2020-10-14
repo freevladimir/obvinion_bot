@@ -14,9 +14,9 @@ const express = require('express'),
       
 var con = mysql.createConnection({
   host: "localhost",
-  user: "h38995c_piter",
-  password: "o^Dm2;2v%vmo",
-  database: "h38995c_obvion"
+  user: "admin_obvion",
+  password: "CF9AJiGlN0",
+  database: "admin_obvion"
 });
       
 var sprintf = require('sprintf-js').sprintf,
