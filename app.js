@@ -22,7 +22,7 @@ var con = mysql.createConnection({
 var sprintf = require('sprintf-js').sprintf,
     vsprintf = require('sprintf-js').vsprintf;
 
-const host = 'localhost';
+const host = '194.87.190.88';
 const port = 3000;
 //const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
