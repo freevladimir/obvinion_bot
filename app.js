@@ -1099,7 +1099,7 @@ process.on('uncaughtException', function(e) {
 
     //console.log('[uncaughtException] app will be terminated: ', e.stack);
 
-    killProcess();
+    //killProcess();
     /**
      * @https://nodejs.org/api/process.html#process_event_uncaughtexception
      *  
