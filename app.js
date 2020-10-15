@@ -23,7 +23,7 @@ var sprintf = require('sprintf-js').sprintf,
     vsprintf = require('sprintf-js').vsprintf;
 
 const host = 'localhost';
-const port = 80;
+const port = 3000;
 //const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
 var MemoryStore = session.MemoryStore;
