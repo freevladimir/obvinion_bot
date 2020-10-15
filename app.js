@@ -1,5 +1,3 @@
-process.env.NTBA_FIX_319 = 1;
-
 const TelegramBot = require('node-telegram-bot-api');
 const tokenBot = '1381951994:AAEDSkw5AnYlVVEORND7djS-ly7cZo-nokc';
 const bot = new TelegramBot(tokenBot, {polling: { interval: 300, params:{ timeout: 10 } } } );
@@ -1084,32 +1082,32 @@ process.on('SIGINT', function() {
 });
 */
 
-process.on('exit', function() {
-  var datetime = new Date();
-  //server.close();
-  /*
-  server = app.listen(port, host, function() {
-    console.log(`Server listens http://${host}:${port}`)
-  });
-  */
-  //console.log('Process terminating - '+datetime)
-});
+// process.on('exit', function() {
+//   var datetime = new Date();
+//   //server.close();
+//   /*
+//   server = app.listen(port, host, function() {
+//     console.log(`Server listens http://${host}:${port}`)
+//   });
+//   */
+//   //console.log('Process terminating - '+datetime)
+// });
 
-process.on('uncaughtException', function(e) {
+// process.on('uncaughtException', function(e) {
 
-    //console.log('[uncaughtException] app will be terminated: ', e.stack);
+//     //console.log('[uncaughtException] app will be terminated: ', e.stack);
 
-    //killProcess();
-    /**
-     * @https://nodejs.org/api/process.html#process_event_uncaughtexception
-     *  
-     * 'uncaughtException' should be used to perform synchronous cleanup before shutting down the process. 
-     * It is not safe to resume normal operation after 'uncaughtException'. 
-     * If you do use it, restart your application after every unhandled exception!
-     * 
-     * You have been warned.
-     */
-});
+//     //killProcess();
+//     /**
+//      * @https://nodejs.org/api/process.html#process_event_uncaughtexception
+//      *  
+//      * 'uncaughtException' should be used to perform synchronous cleanup before shutting down the process. 
+//      * It is not safe to resume normal operation after 'uncaughtException'. 
+//      * If you do use it, restart your application after every unhandled exception!
+//      * 
+//      * You have been warned.
+//      */
+// });
 
 /*
 var http = require('http');
